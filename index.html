@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA TECH WORLD - Digital Solutions</title>
+    <meta name="description" content="CA Tech World - Your Growth, Our Focus. Digital Solutions for a Smarter Tomorrow.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="glow-orb top-left"></div>
+        <div class="glow-orb bottom-right"></div>
+        <div class="stars"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <svg width="40" height="40" viewBox="0 0 100 100" class="logo-svg">
+                    <!-- Simplified glowing butterfly SVG -->
+                    <path d="M50 80 L30 40 L10 50 L30 20 L50 45 Z" fill="none" stroke="#00f3ff" stroke-width="2" class="wing"/>
+                    <path d="M50 80 L70 40 L90 50 L70 20 L50 45 Z" fill="none" stroke="#00f3ff" stroke-width="2" class="wing"/>
+                    <line x1="50" y1="30" x2="50" y2="85" stroke="#00f3ff" stroke-width="3"/>
+                </svg>
+                <div class="logo-text">
+                    <span class="brand-name">CA TECH WORLD</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Solutions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn-primary nav-cta">Let's Connect</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge">Digital Solutions for a Smarter Tomorrow</div>
+                    <h1 class="glitch" data-text="IDEAS. STRATEGY. IMPACT.">IDEAS. STRATEGY. IMPACT.</h1>
+                    <p class="subtitle">YOUR GROWTH, OUR FOCUS</p>
+                    <p class="hero-desc">We transform ideas into real growth. Let's build something great together.</p>
+                    <div class="hero-actions">
+                        <a href="#services" class="btn-primary">Explore Solutions</a>
+                        <a href="#contact" class="btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="butterfly-container">
+                        <!-- Intricate glowing butterfly SVG -->
+                        <svg viewBox="0 0 500 500" class="hero-butterfly">
+                            <defs>
+                                <filter id="glow">
+                                    <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+                                    <feMerge>
+                                        <feMergeNode in="coloredBlur"/>
+                                        <feMergeNode in="SourceGraphic"/>
+                                    </feMerge>
+                                </filter>
+                            </defs>
+                            <g filter="url(#glow)" stroke="#00f3ff" stroke-width="2" fill="none" class="butterfly-paths">
+                                <!-- Left Wing Top -->
+                                <path d="M250 250 L140 130 L40 180 L120 280 Z" />
+                                <path d="M250 250 L140 130 L190 70 Z" />
+                                <path d="M140 130 L40 180 L80 100 Z" />
+                                <path d="M190 70 L80 100 L140 130 Z" />
+                                <!-- Left Wing Bottom -->
+                                <path d="M250 250 L120 280 L90 380 L180 340 Z" />
+                                <path d="M120 280 L40 180 L90 380 Z" />
+                                <path d="M180 340 L220 420 L250 250 Z" />
+                                <path d="M90 380 L180 340 L220 420 Z" />
+
+                                <!-- Right Wing Top -->
+                                <path d="M250 250 L360 130 L460 180 L380 280 Z" />
+                                <path d="M250 250 L360 130 L310 70 Z" />
+                                <path d="M360 130 L460 180 L420 100 Z" />
+                                <path d="M310 70 L420 100 L360 130 Z" />
+                                <!-- Right Wing Bottom -->
+                                <path d="M250 250 L380 280 L410 380 L320 340 Z" />
+                                <path d="M380 280 L460 180 L410 380 Z" />
+                                <path d="M320 340 L280 420 L250 250 Z" />
+                                <path d="M410 380 L320 340 L280 420 Z" />
+
+                                <!-- Body -->
+                                <line x1="250" y1="120" x2="250" y2="380" stroke-width="4"/>
+                                <circle cx="250" cy="100" r="10" fill="#00f3ff"/>
+                            </g>
+                        </svg>
+                        <div class="light-beam"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>OUR SOLUTIONS</h2>
+                    <p>Transforming Ideas Into Real Growth</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🌐</div>
+                        <h3>Websites / E-Commerce</h3>
+                        <p>BUILD YOUR ONLINE PRESENCE</p>
+                        <div class="card-glow"></div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📈</div>
+                        <h3>Digital Marketing / Growth Ads</h3>
+                        <p>MORE REACH. MORE CUSTOMERS.</p>
+                        <div class="card-glow"></div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💬</div>
+                        <h3>Bulk Sms / Calls</h3>
+                        <p>DIRECT. FAST. EFFECTIVE.</p>
+                        <div class="card-glow"></div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📱</div>
+                        <h3>WhatsApp & Email Marketing</h3>
+                        <p>ENGAGE. NURTURE. CONVERT.</p>
+                        <div class="card-glow"></div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📢</div>
+                        <h3>Social Media / Promotions</h3>
+                        <p>BUILD YOUR BRAND. CREATE BUZZ.</p>
+                        <div class="card-glow"></div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📸</div>
+                        <h3>Product Shoot / Podcasts</h3>
+                        <p>TELL YOUR STORY. CREATE IMPACT.</p>
+                        <div class="card-glow"></div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🤖</div>
+                        <h3>AI Automation Solutions</h3>
+                        <p>WORK SMARTER. GROW FASTER.</p>
+                        <div class="card-glow"></div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💻</div>
+                        <h3>Software & Applications</h3>
+                        <p>IDEAS INTO POWERFUL APPS.</p>
+                        <div class="card-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container contact-container">
+                <div class="contact-info">
+                    <h2>Let's Build Something Great</h2>
+                    <p class="contact-desc">Ready to accelerate your growth? Reach out to us today.</p>
+
+                    <ul class="contact-list">
+                        <li>
+                            <span class="icon">📞</span>
+                            <div>
+                                <strong>Phone</strong>
+                                <span><a href="tel:8010609980">8010609980</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon">✉️</span>
+                            <div>
+                                <strong>Email</strong>
+                                <span><a href="mailto:catechworld111@gmail.com">catechworld111@gmail.com</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon">📍</span>
+                            <div>
+                                <strong>Location</strong>
+                                <span>Mumbai, Maharashtra</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon">🌐</span>
+                            <div>
+                                <strong>Website</strong>
+                                <span><a href="https://www.catechworld.com" target="_blank" rel="noopener noreferrer">www.catechworld.com</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon">📸</span>
+                            <div>
+                                <strong>Instagram</strong>
+                                <span><a href="https://instagram.com/ca.techworld" target="_blank" rel="noopener noreferrer">@ca.techworld</a></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <h3>Send a Message</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                        <div class="form-status" id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <span class="brand-name">CA TECH WORLD</span>
+            </div>
+            <div class="footer-tags">
+                <span>IDEAS</span> | <span>STRATEGY</span> | <span>TECHNOLOGY</span> | <span>GROWTH</span>
+            </div>
+            <p class="copyright">&copy; 2026 CA Tech World. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
